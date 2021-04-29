@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
+    
     <title>Intro component </title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -35,10 +36,14 @@
         <div class="div-action">
             <p class="try-free"><strong>Try it free 7 days</strong> then &dollar;20/mo. thereafter</p>
             <form action="">
-                <input type="text" name="first-name" id="txtFirstName" aria-label="First Name" placeholder="First Name" class="form-control">
-                <input type="text" name="last-name" id="txtLastName" aria-label="Last Name" placeholder="Last Name" class="form-control">
-                <input type="email" name="e-mail" id="txtMail" aria-label="Email Address" placeholder="Email Address" class="form-control">
-                <input type="password" name="password" id="txtPassword" aria-label="Password" placeholder="Password" class="form-control">
+                <input type="text" name="first-name" id="txtFirstName" aria-label="First Name" placeholder="First Name" class="shadow-none form-control">
+                <p class="font-italic text-right" id="auxFirst">First Name cannot be empty</p>
+                <input type="text" name="last-name" id="txtLastName" aria-label="Last Name" placeholder="Last Name" class="shadow-none form-control">
+                <p class="font-italic text-right" id="auxLast">Last Name cannot be empty</p>
+                <input type="email" name="e-mail" id="txtMail" aria-label="Email Address" placeholder="Email Address" class="shadow-none form-control">
+                <p class="font-italic text-right" id="auxMail">Looks like this is not an email</p>
+                <input type="password" name="password" id="txtPassword" aria-label="Password" placeholder="Password" class="shadow-none form-control">
+                <p class="font-italic text-right" id="auxPass">Password cannot be empty.</p>
                 <input type="submit" value="Claim your free trial" id="btnSubmit" class="form-control form-button">
                 <p class="agree">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
             </form>
@@ -51,5 +56,5 @@
         </p>
     </footer>
 </body>
-
+<script src="./scripts/action.js"></script>
 </html>
