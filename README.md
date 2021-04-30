@@ -1,11 +1,23 @@
-# intro-component
+
+# Project Title
+
 Intro component with sign-up form
 
-# Content
-This is a landing page to practice building out a sign-up form complete with client-side validation using JavaScript.
 
-# Demo
---- Aquí debe ir el enlace al sitio
+## Acknowledgements
 
-# Preview
---- Aquí debe ir una imagen del sitio
+ - [Frontend Mentor](https://https://www.frontendmentor.io/)
+ - [Thu Nghiem's Grid Article](https://www.freecodecamp.org/news/learn-css-grid-by-building-5-layouts/)
+ - [Bootstrap](https://getbootstrap.com/)
+ 
+ 
+  
+## Screenshots
+
+![App Screenshot](https://odpinerosh.github.io/intro-component/images/screenshot.png)
+
+  
+## Preview
+
+https://odpinerosh.github.io/intro-component/
+
